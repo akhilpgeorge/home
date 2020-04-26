@@ -18,7 +18,7 @@ const Leadership = ({ heading, message, img }) => {
             <Carousel>
               {img.map((value, index) => {
                 return (
-                  <Carousel.Item>
+                  <Carousel.Item key={index}>
                     <img
                       className="d-block w-100"
                       src={value.img}
