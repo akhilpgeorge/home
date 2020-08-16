@@ -73,7 +73,7 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: true,
+  show: false,
   heading: "Leadership",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
@@ -88,14 +88,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "React", value: 90 },
-    { name: "Redux", value: 90 },
     { name: "JavaScript", value: 90 },
     { name: "AngularJS", value: 90 },
+    { name: "React", value: 70 },
+    { name: "Redux", value: 50 },
     { name: "JQuery", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
+    { name: "Git", value: 85 },
+    { name: "MongoDB", value: 65 },
+    { name: "Java Spring Boot", value: 55 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -114,7 +114,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time ReactJS/ JavaScript opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "akhilpgeorge@gmail.com",
 };
 
