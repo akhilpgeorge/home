@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9b1855b064362f8e44253c0802b2c0b",
+    "revision": "840ac4139774ca9e3b76e4e70f35f1f6",
     "url": "/home/index.html"
   },
   {
-    "revision": "ea414c97ea58d3bc14cd",
+    "revision": "fca455cef5549ed8ec5c",
     "url": "/home/static/css/main.20671097.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.e8be2d8b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea414c97ea58d3bc14cd",
-    "url": "/home/static/js/main.a476b2a8.chunk.js"
+    "revision": "fca455cef5549ed8ec5c",
+    "url": "/home/static/js/main.fa174a51.chunk.js"
   },
   {
     "revision": "c0578b487099793a068c",
     "url": "/home/static/js/runtime-main.3c590061.js"
   },
   {
-    "revision": "2b6e92b7bc93998bdadda35ea09d360a",
-    "url": "/home/static/media/akhil-dp.2b6e92b7.jpeg"
+    "revision": "5f57a8d0229e57572cf209e5a398b78f",
+    "url": "/home/static/media/about-me-dp.5f57a8d0.jpg"
   },
   {
     "revision": "353105a86e1a8b97b2c2378c55722f15",
