@@ -48,14 +48,23 @@ const mainBody = {
 //     i.e resume: require("../editable-stuff/resume.pdf"),
 //         resume: "https://docs.google.com/document/d/16apx8s6zlVwCu7Aea6jdJtXOnAb6GsNP8QAsTv7gWZo/edit",
 
+const getExpInYearAndMonths = () => {
+  let expStartDate = new Date('03-12-2018'); // career started on mar 12 2018
+  let time = (new Date().getTime() - expStartDate.getTime()) / 1000;
+  let year = Math.abs(Math.floor((time / (3600 * 24)) / 365.25));
+  let months = Math.abs(Math.floor((time / (3600 * 24) % 365.25) / 30));
+  console.log(`years: ${year} and months: ${months}`);
+  return months > 5 ? `${year}.5+` : `${year}+`
+}
+
 const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/about-me-dp.jpg"),
   imageSize: 375,
   message:
-    "A software engineer with 2.5+ years experience of facilitating cutting-edge engineering solutions with a wide range of technology skills. Highly skilled in Front end technologies. enjoys research and with pivotal contributions in building innovative applications to the needs of the business",
-  resume: require("../editable-stuff/resume.pdf"),
+    `A software engineer with ${getExpInYearAndMonths()} years experience of facilitating cutting-edge engineering solutions with a wide range of technology skills. Highly skilled in Front end technologies. enjoys research and with pivotal contributions in building innovative applications to the needs of the business`,
+  resume: require("../editable-stuff/Akhil's-Resume-June-10-2022.pdf"),
 };
 
 // PROJECTS SECTION
