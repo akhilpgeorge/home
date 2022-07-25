@@ -60,7 +60,7 @@ const getExpInYearAndMonths = () => {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/about-me-dp.jpg"),
+  imageLink: require("../editable-stuff/profile-pic.png"),
   imageSize: 375,
   message:
     `A software engineer with ${getExpInYearAndMonths()} years experience of facilitating cutting-edge engineering solutions with a wide range of technology skills. Highly skilled in Front end technologies. enjoys research and with pivotal contributions in building innovative applications to the needs of the business`,
